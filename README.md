@@ -17,8 +17,6 @@ Residual Blocks: 9 ResNet blocks with instance normalization and reflection padd
 Upsampling Layers: 2 transposed convolutional layers to restore the original image resolution.
 Output: A 3-channel RGB image using 7×7 convolution followed by Tanh activation.
 
-
-
  
 Discriminator
 The discriminators follow a PatchGAN approach, distinguishing 70×70 image patches as real or fake:
@@ -78,11 +76,8 @@ Discriminator X Loss: 0.29539287854341945
 Discriminator Y Loss: 0.42873355525599166
 
    
+![image](https://github.com/user-attachments/assets/9a46e83d-abdb-49e5-a637-97ddd64fc0ef)
 
-Epoch 2:
-Generator Loss: 5.618030848017164
-Discriminator X Loss: 0.24251476284946985
-Discriminator Y Loss: 0.39511890364158303
 
 Training going pretty well!!!
 Challenges and Issues
@@ -107,6 +102,3 @@ References
 2.	Johnson, J., Alahi, A., & Fei-Fei, L. (2016). Perceptual Losses for Real-Time Style Transfer and Super-Resolution.
 3.	https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/tree/master
 4.	https://medium.com/@chilldenaya/cyclegan-introduction-pytorch-implementation-5b53913741ca
-
-
-![image](https://github.com/user-attachments/assets/07d2456e-3d52-4709-a64e-07b0b78c03c6)
