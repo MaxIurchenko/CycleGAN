@@ -46,24 +46,31 @@ Intermediate Outputs
 Sample outputs (epoch 20) revealed:
 Generated Images: Lacked realism and clarity. Cycle-Consistency Images: Significant deviations from input.
 
+   
+First tests
 
-   First tests
-![image](https://github.com/user-attachments/assets/7e28ea79-4148-424f-baf4-d95adaaac73b)
 
-
+   
 Epoch 0:
-Generator Loss: 6.429175633533745 Discriminator X Loss: 0.43364873708813056 Discriminator Y Loss: 0.48220846662001243
-<img width="128" alt="image" src="https://github.com/user-attachments/assets/49125b73-9461-4bc0-875d-b84d047b094c" />
+Generator Loss: 6.429175633533745
+Discriminator X Loss: 0.43364873708813056
+Discriminator Y Loss: 0.48220846662001243
 
+   
 
 Epoch 1:
-Generator Loss: 6.007449833450804 Discriminator X Loss: 0.29539287854341945 Discriminator Y Loss: 0.42873355525599166
-![image](https://github.com/user-attachments/assets/be10ffe4-98dc-4f07-887e-a29b46f5fadb)
+Generator Loss: 6.007449833450804
+Discriminator X Loss: 0.29539287854341945
+Discriminator Y Loss: 0.42873355525599166
 
+   
 
 Epoch 2:
-Generator Loss: 5.618030848017164 Discriminator X Loss: 0.24251476284946985 Discriminator Y Loss: 0.39511890364158303
-![image](https://github.com/user-attachments/assets/3d5d8283-ac1b-49b2-ba94-177dbdbbe747)
+Generator Loss: 5.618030848017164
+Discriminator X Loss: 0.24251476284946985
+Discriminator Y Loss: 0.39511890364158303
+
+![image](https://github.com/user-attachments/assets/f5d5649e-d873-406f-b96b-7c31d44371d6)
 
 Training going pretty well!!!
 Challenges and Issues
