@@ -45,22 +45,26 @@ Cycle consistency was weak, failing to preserve the content of real-world images
 Intermediate Outputs
 Sample outputs (epoch 20) revealed:
 Generated Images: Lacked realism and clarity. Cycle-Consistency Images: Significant deviations from input.
-<img width="128" alt="image" src="https://github.com/user-attachments/assets/1fefe2d1-8f3e-46e3-912c-9f70680181f6" />
+
 
    First tests
-    ![image](https://github.com/user-attachments/assets/e40b2dc8-e215-46d0-8eb6-c0d838ffe770)
+![image](https://github.com/user-attachments/assets/7e28ea79-4148-424f-baf4-d95adaaac73b)
+
 
 Epoch 0:
 Generator Loss: 6.429175633533745 Discriminator X Loss: 0.43364873708813056 Discriminator Y Loss: 0.48220846662001243
 <img width="128" alt="image" src="https://github.com/user-attachments/assets/49125b73-9461-4bc0-875d-b84d047b094c" />
 
+
 Epoch 1:
 Generator Loss: 6.007449833450804 Discriminator X Loss: 0.29539287854341945 Discriminator Y Loss: 0.42873355525599166
-<img width="128" alt="image" src="https://github.com/user-attachments/assets/580d9669-ed1e-4a0a-9684-d95bca773411" />
+![image](https://github.com/user-attachments/assets/be10ffe4-98dc-4f07-887e-a29b46f5fadb)
+
 
 Epoch 2:
 Generator Loss: 5.618030848017164 Discriminator X Loss: 0.24251476284946985 Discriminator Y Loss: 0.39511890364158303
-         
+![image](https://github.com/user-attachments/assets/3d5d8283-ac1b-49b2-ba94-177dbdbbe747)
+
 Training going pretty well!!!
 Challenges and Issues
 Insufficient Training Time: CycleGAN requires extensive training (200+ epochs) for optimal results.
